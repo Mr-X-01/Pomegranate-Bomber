@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
-echo "--------------------"
-echo "|    1. Termux     |"
-echo "|    2. Other      |"
-echo "|                  |"
-echo "|      1 or 2:     |"
-echo "--------------------"
+echo "####################"
+echo "#### 1. Termux  ####"
+echo "#### 2. Other   ####"
+echo "####################"
+echo "####   1 or 2:  ####"
+echo "####################"
 read numb
 if [ $numb = "1" ]
 then
