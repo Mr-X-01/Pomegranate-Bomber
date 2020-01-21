@@ -1,8 +1,8 @@
 # Spammer
 SMS spammer<br>
 # Donate
-<b>Кому не жалко копейку на развитие проекта:</b><br>
-bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b
+<b>Who does not mind a penny on the development of the project:</b><br>
+<b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b
 <br>
 --------
 <br>
