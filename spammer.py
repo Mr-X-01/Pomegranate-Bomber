@@ -20,20 +20,20 @@ class spymer:
 888  888888888        888
 8888888888888888888888888
 8888888888888888888888888
-8888    ----------   8888
+8888    @Mrxanon     8888
 8888   SMS Spammer   8888
 8888   v.1.0 (beta)  8888
 8888888888888888888888888
 8888888888888888888888888''')
 
 		print(Style.RESET_ALL)
-		parser = argparse.ArgumentParser(prog='spymer', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon')
+		parser = argparse.ArgumentParser(prog='spammer', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon')
 		parser.add_argument('phonenum', metavar='phone', help='Victims phone number (example: 79991234455)')
 		args = parser.parse_args()
 		_phone = args.phonenum
 
 		if _phone == "update":
-			cmd = os.system("cd && rm -rf ~/Mrx && git clone https://github.com/Mrx-Anonym/Mrx && sh ~/Mrx/install.sh")
+			cmd = os.system("cd && rm -rf ~/Spam && git clone https://github.com/Mrx-Anonym/Mrx && sh ~/Mrx/install.sh")
 			exit()
 
 		def showstatus(message, type='new'):
@@ -190,5 +190,5 @@ class spymer:
 				print(('{} Circle passed.').format(iteration))
 			except:
 				pass
-spammer = spymer()
+spammer = Spam()
 spammer.main()
