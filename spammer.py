@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # spammer v0.3 beta
 # Author: @Mrxanon and @Krolikmerzavec
-class Pomegranate-Bomber:
+class Pomegranate:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
 		from colorama import Fore, Back, Style
