@@ -27,5 +27,5 @@ We are not responsible for what you do with this utility.<br>
   
 # How to start?
 • <code>cd Pomegranate-Bomber</code><br>
-• <code>Pomegranate-Bomber *phone*</code><br>
+• <code>python3 spammer.py *phone*</code><br>
 There will be questions - Telegram:@Mrxanon and @Krolikmerzavec.<br>
