@@ -22,18 +22,18 @@ class Pomegranate:
 #####----###888  88888  888        888###----#####
 ####--##--##88888888888888888888888888##--##--####
 ###--####--#88888888888888888888888888#--####--###
-####--##--##88      @Mrxanon        88##--##--####
+####--##--##88     @Mrxanon         88##--##--####
 #####----###88     @NexlsHere       88###----#####
 ######--####88     SMS Spammer      88####--######
-#####----###88     v.0.3 (beta)     88###----#####
+#####----###88     V.0.3 (beta)     88###----#####
 ####--##--##88888888888888888888888888##--##--####
 ###--####--#88888888888888888888888888#--####--###
 ##----------##########################+---------##
 ##################################################'''+Style.RESET_ALL+Fore.BLUE+'''
 
 Before you start using this utility,
-we want to say - that you do everything at your own peril and risk.
-We are not responsible for what you do with this utility.
+we want to say - that you do everything at your own peril and risk!
+We are not responsible for what you do with this utility!
 ''')
 
 		print(Style.RESET_ALL)
