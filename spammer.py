@@ -200,5 +200,5 @@ We are not responsible for what you do with this utility.
 				print(('{} Circle passed.').format(iteration))
 			except:
 				pass
-spammer = Pomegranate-Bomber()
+spammer = Pomegranate()
 spammer.main()
