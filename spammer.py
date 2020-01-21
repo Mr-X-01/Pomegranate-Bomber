@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # spammer v1.0
 # Author: @Mrxanon
-class spymer:
+class spammer:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
 		from colorama import Fore, Back, Style
@@ -190,5 +190,5 @@ class spymer:
 				print(('{} Circle passed.').format(iteration))
 			except:
 				pass
-spammer = Spam()
+spammer = Mrx()
 spammer.main()
