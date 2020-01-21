@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # spammer v0.3 beta
-# Author: @Mrxanon and @Krolikmerzavec
+# Author: @Mrxanon and @NexlsHere
 class Pomegranate:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
@@ -22,10 +22,10 @@ class Pomegranate:
 ##########888  888   888        888##########
 ##########8888888888888888888888888##########
 ##########8888888888888888888888888##########
-##########8888    @Mrxanon     8888##########
-##########8888 @Krolikmerzavec 8888##########
-##########8888   SMS Spammer   8888##########
-##########8888   v.0.3 (beta)  8888##########
+##########88      @Mrxanon       88##########
+##########88   @Krolikmerzavec   88##########
+##########88     SMS Spammer     88##########
+##########88     v.0.3 (beta)    88##########
 ##########8888888888888888888888888##########
 ##########8888888888888888888888888##########
 #############################################
@@ -37,7 +37,7 @@ We are not responsible for what you do with this utility.
 ''')
 
 		print(Style.RESET_ALL)
-		parser = argparse.ArgumentParser(prog='Pomegranate-Bomber', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon and @Krolikmerzavec')
+		parser = argparse.ArgumentParser(prog='Pomegranate-Bomber', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon and @NexlsHere')
 		parser.add_argument('phonenum', metavar='phone', help='Victims phone number (example: 79991234455)')
 		args = parser.parse_args()
 		_phone = args.phonenum
