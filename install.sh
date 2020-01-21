@@ -14,25 +14,25 @@ then
 	pkg install python3-pip
 	pip3 install requests
 	pip3 install colorama
-	cp ~/Mrx/spammer.py /data/data/com.termux/files/usr/bin/Mrx
-	dos2unix /data/data/com.termux/files/usr/bin/Mrx
-	chmod 777 /data/data/com.termux/files/usr/bin/Mrx
-	Mrx
+	cp ~/Pomegranate-Bomber/spammer.py /data/data/com.termux/files/usr/bin/Pomegranate-Bomber
+	dos2unix /data/data/com.termux/files/usr/bin/Pomegranate-Bomber
+	chmod 777 /data/data/com.termux/files/usr/bin/Pomegranate-Bomber
+	Pomegranate-Bomber
 else
 	if [ $numb = "2" ]
 	then
 
 		if [ "$(whoami)" != 'root' ]; then
-			echo "You have no rights. Run install.sh with root (sudo sh ~/Mrx/install.sh)"
+			echo "You have no rights. Run install.sh with root (sudo sh ~/Pomegranate-Bomber/install.sh)"
 			exit
 		else
 			apt install python3 python3-pip
 			pip3 install requests
 			pip3 install colorama
-			cp ~/Mrx/spammer.py /usr/bin/Mrx
-			dos2unix /usr/bin/Mrx
-			chmod 777 /usr/bin/Mrx
-			Mrx
+			cp ~/Mrx/spammer.py /usr/bin/Pomegranate-Bomber
+			dos2unix /usr/bin/Pomegranate-Bomber
+			chmod 777 /usr/bin/Pomegranate-Bomber
+			Pomegranate-Bomber
 		fi
 	else
 		echo "Invalid input"
