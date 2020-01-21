@@ -1,8 +1,8 @@
 # Spammer
 SMS spammer<br>
-Hi, before you start using this utility,
-we want to say - that you do everything at your own peril and risk.
-We are not responsible for what you do with this utility.
+Hi, before you start using this utility,<br>
+we want to say - that you do everything at your own peril and risk.<br>
+We are not responsible for what you do with this utility.<br>
 # Donate
 <b>Who does not mind a penny on the development of the project:</b><br>
 <b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<b>
