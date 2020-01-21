@@ -19,6 +19,6 @@ SMS spammer<br>
 <br>
 <b>for example:</b><br>
 <code>Pomegranate-Bomber 71231234455</code><br><br>
-There will be questions - contact above.<br>
+There will be questions - Telegram:@Mrxanon and @Krolikmerzavec.<br>
 <br><br>
 
