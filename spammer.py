@@ -1,39 +1,43 @@
 #!/usr/bin/python3
 # spammer v1.0
 # Author: @Mrxanon
-class Spam:
+class Mrx:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
 		from colorama import Fore, Back, Style
 		os.system("clear")
 		print(Fore.GREEN + '''
-8888888888888888888888888
-8888888888888888888888888
-888        888        888
-888  8888  888  8888  888
-888  8888  888  8888    8
-888  8888  888  8888  888
-888        888        888
-888  888888888  8888  888
-888  888888888  8888    8
-888  888888888  8888  888
-888  888888888        888
-8888888888888888888888888
-8888888888888888888888888
-8888    @Mrxanon     8888
-8888   SMS Spammer   8888
-8888   v.1.0 (beta)  8888
-8888888888888888888888888
-8888888888888888888888888''')
+###############################
+###############################
+###8888888888888888888888888###
+###8888888888888888888888888###
+###888        888        888###
+###888  8888  888  8888  888###
+###888  8888  888  8888    8###
+###888  8888  888  8888  888###
+###888        888        888###
+###888  888888888  8888  888###
+###888  888888888  8888    8###
+###888  888888888  8888  888###
+###888  888888888        888###
+###8888888888888888888888888###
+###8888888888888888888888888###
+###8888    @Mrxanon     8888###
+###8888   SMS Spammer   8888###
+###8888   v.1.0 (beta)  8888###
+###8888888888888888888888888###
+###8888888888888888888888888###
+###############################
+###############################''')
 
 		print(Style.RESET_ALL)
-		parser = argparse.ArgumentParser(prog='Spam', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon')
+		parser = argparse.ArgumentParser(prog='spammer', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon')
 		parser.add_argument('phonenum', metavar='phone', help='Victims phone number (example: 79991234455)')
 		args = parser.parse_args()
 		_phone = args.phonenum
 
 		if _phone == "update":
-			cmd = os.system("cd && rm -rf ~/Spam && git clone https://github.com/Mrx-Anonym/Mrx && sh ~/Mrx/install.sh")
+			cmd = os.system("cd && rm -rf ~/Mrx && git clone https://github.com/Mrx-Anonym/Mrx && sh ~/Mrx/install.sh")
 			exit()
 
 		def showstatus(message, type='new'):
@@ -76,8 +80,8 @@ class Spam:
 		_phoneOstin = '+'+_phone[0]+'+('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] # '+7+(915)350-99-08'
 		_phonePizzahut = '+'+_phone[0]+' ('+_phone[1:4]+') '+_phone[4:7]+' '+_phone[7:9]+' '+_phone[9:11] # '+7 (915) 350 99 08'
 		_phoneGorzdrav = _phone[1:4]+') '+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] # '915) 350-99-08'
-		print(showstatus(wrapsbrace('info', True) + ('Отправка SMS на: +{}').format(_phone)))
-		print('Spammer launched.\nIf you want to stop, press Ctrl + Z.')
+		print(showstatus(wrapsbrace('info', True) + ('SMS sending to: +{}').format(_phone)))
+		print('Spammer launched.\nIf you want to stop, press "Ctrl + Z".')
 		i = 1
 		iteration = 0
 		while i < 2:
@@ -190,5 +194,5 @@ class Spam:
 				print(('{} Circle passed.').format(iteration))
 			except:
 				pass
-spammer = Spam()
+spammer = Mrx()
 spammer.main()
