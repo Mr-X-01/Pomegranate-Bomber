@@ -14,7 +14,7 @@ SMS spammer<br>
 • <code>apt upgrade</code><br>
 • <code>apt install git</code><br>
 • <code>git clone https://github.com/Mrx-Anonym/Mrx</code><br>
-• <code>sh spymer/install.sh</code><br>
+• <code>sh Mrx/install.sh</code><br>
 • <code>spymer *phone*</code><br>
 <br>
 <b>for example:</b><br>
