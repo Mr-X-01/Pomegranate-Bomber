@@ -32,7 +32,7 @@ else
 			apt install python3 python3-pip
 			pip3 install requests
 			pip3 install colorama
-			cp ~/Mrx/spammer.py /usr/bin/Pomegranate-Bomber
+			cp ~/Pomegranate-Bomber/spammer.py /usr/bin/Pomegranate-Bomber
 			dos2unix /usr/bin/Pomegranate-Bomber
 			chmod 777 /usr/bin/Pomegranate-Bomber
 			Pomegranate-Bomber
