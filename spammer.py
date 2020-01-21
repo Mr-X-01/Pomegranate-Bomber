@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # spammer v1.0
 # Author: @Mrxanon
-class spammer:
+class Spam:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
 		from colorama import Fore, Back, Style
@@ -27,7 +27,7 @@ class spammer:
 8888888888888888888888888''')
 
 		print(Style.RESET_ALL)
-		parser = argparse.ArgumentParser(prog='spammer', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon')
+		parser = argparse.ArgumentParser(prog='Spam', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon')
 		parser.add_argument('phonenum', metavar='phone', help='Victims phone number (example: 79991234455)')
 		args = parser.parse_args()
 		_phone = args.phonenum
@@ -190,5 +190,5 @@ class spammer:
 				print(('{} Circle passed.').format(iteration))
 			except:
 				pass
-spammer = Mrx()
+spammer = Spam()
 spammer.main()
