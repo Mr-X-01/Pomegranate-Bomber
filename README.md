@@ -5,7 +5,7 @@ we want to say - that you do everything at your own peril and risk.<br>
 We are not responsible for what you do with this utility.<br> 
 # How to install?
 <b>Follow the instructions...</b><br>
-• If you have Android - download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=ru">Termux from GooglePlay</a> and open it and write the commands below:<br>
+• If you have Android - download <a href="https://play.google.com/store/apps/details?id=com.termux&hl=ru">Termux from Google Play</a> and open it and write the commands below:<br>
 • <code>apt update</code><br>
 • <code>apt upgrade</code><br>
 • <code>apt install git</code><br>
