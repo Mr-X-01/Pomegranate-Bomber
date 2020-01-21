@@ -15,10 +15,10 @@ SMS spammer<br>
 • <code>apt install git</code><br>
 • <code>git clone https://github.com/Mrx-Anonym/Mrx</code><br>
 • <code>sh Mrx/install.sh</code><br>
-• <code>spymer *phone*</code><br>
+• <code>Spam *phone*</code><br>
 <br>
 <b>for example:</b><br>
-<code>spymer 71231234455</code><br><br>
+<code>Spam 71231234455</code><br><br>
 There will be questions - contact above.<br>
 <br><br>
 
