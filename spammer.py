@@ -37,7 +37,7 @@ Before you start using this utility,
 we want to say - that you do everything at your own peril and risk!
 We are not responsible for what you do with this utility!
 
-[Write phone number without "+"]
+[Write the phone number without "+"]
 ''')
 
 		print(Style.RESET_ALL)
