@@ -29,7 +29,12 @@ class Bomber:
 ######8888888888888888888888888######
 ######8888888888888888888888888######
 #####################################
-#####################################''')
+#####################################'''+Style.RESET_ALL+Fore.BLUE+'''
+
+Before you start using this utility,
+we want to say - that you do everything at your own peril and risk.
+We are not responsible for what you do with this utility.
+''')
 
 		print(Style.RESET_ALL)
 		parser = argparse.ArgumentParser(prog='spammer', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon and @Krolikmerzavec')
