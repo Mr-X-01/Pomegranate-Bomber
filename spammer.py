@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# spammer v1.0
+# spammer v0.2 beta
 # Author: @Mrxanon and @Krolikmerzavec
 class Bomber:
 	def main(self):
@@ -25,7 +25,7 @@ class Bomber:
 ######8888    @Mrxanon     8888######
 ######8888 @Krolikmerzavec 8888######
 ######8888   SMS Spammer   8888######
-######8888   v.1.0 (beta)  8888######
+######8888   v.0.2 (beta)  8888######
 ######8888888888888888888888888######
 ######8888888888888888888888888######
 #####################################
