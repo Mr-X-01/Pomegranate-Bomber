@@ -24,4 +24,6 @@ We are not responsible for what you do with this utility.<br>
 <code>Pomegranate-Bomber 71231234455</code><br><br>
 There will be questions - Telegram:@Mrxanon and @Krolikmerzavec.<br>
 <br><br>
-
+# How to start?
+• <code>cd Pomegranate-Bomber</code><br>
+• <code>Pomegranate-Bomber *phone*</code><br>
