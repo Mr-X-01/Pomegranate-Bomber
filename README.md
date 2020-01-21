@@ -5,11 +5,7 @@ we want to say - that you do everything at your own peril and risk.<br>
 We are not responsible for what you do with this utility.<br>
 # Donate
 <b>Who does not mind a penny on the development of the project:</b><br>
-<b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<b>
-<br>
---------
-<br>
-<br>
+<b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<br>
   
 # How to install?
 <b>Follow the instructions...</b><br>
@@ -24,8 +20,8 @@ We are not responsible for what you do with this utility.<br>
 <b>for example:</b><br>
 <code>Pomegranate-Bomber 71231234455</code><br><br>
 <br><br>
-  
 # How to start?
 • <code>cd Pomegranate-Bomber</code><br>
 • <code>python3 spammer.py *phone*</code><br>
+<b>
 There will be questions - Telegram:@Mrxanon and @Krolikmerzavec.<br>
