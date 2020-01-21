@@ -2,7 +2,7 @@
 SMS spammer<br>
 # Donate
 <b>Who does not mind a penny on the development of the project:</b><br>
-<b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b
+<b>bitcoin: 1LBjGEQ16jK23cVqtkFg5fm91poKVVAP5b<b>
 <br>
 --------
 <br>
