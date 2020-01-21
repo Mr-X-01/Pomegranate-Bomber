@@ -33,7 +33,7 @@ class spymer:
 		_phone = args.phonenum
 
 		if _phone == "update":
-			cmd = os.system("cd && rm -rf ~/spammer && git clone https://github.com/Mrx-Anonym/Mrx && sh ~/spammer/install.sh")
+			cmd = os.system("cd && rm -rf ~/Mrx && git clone https://github.com/Mrx-Anonym/Mrx && sh ~/Mrx/install.sh")
 			exit()
 
 		def showstatus(message, type='new'):
