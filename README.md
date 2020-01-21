@@ -24,4 +24,4 @@ We are not responsible for what you do with this utility.<br>
 • <code>cd Pomegranate-Bomber</code><br>
 • <code>python3 spammer.py *phone*</code><br>
 <b>
-There will be questions - Telegram:@Mrxanon and @Krolikmerzavec.<br>
+There will be questions - Telegram:@Mrxanon and @NexlsHere.<br>
