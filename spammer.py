@@ -41,8 +41,10 @@ class Pomegranate:
 ##   for what you do with this utility!         ##
 ##################################################
 '''+Style.RESET_ALL+Fore.BLUE+'''
-[Write the phone number without "+"]
-[Start command: Pomegranate-Bomber "Phone"]
+##################################################
+##  [Write the phone number without "+"]        ##
+##  [Start command: Pomegranate-Bomber "Phone"] ##
+##################################################
 ''')
 
 		print(Style.RESET_ALL)
