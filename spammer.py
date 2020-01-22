@@ -8,7 +8,7 @@ class Pomegranate:
 		os.system("clear")
 		print(Fore.GREEN + '''
 ##################################################
-################################################## 
+##################################################
 ##----------##########################----------##
 ###--####--#88888888888888888888888888#--####--###
 ####--##--##88888888888888888888888888##--##--####
@@ -36,7 +36,7 @@ class Pomegranate:
 Before you start using this utility,
 we want to say - that you do everything at your own peril and risk!
 We are not responsible for what you do with this utility!
-
+'''+Style.RESET_ALL+Fore.RED+'''
 [Write the phone number without "+"]
 ''')
 
