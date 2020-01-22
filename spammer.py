@@ -42,8 +42,8 @@ class Pomegranate:
 ##################################################
 '''+Style.RESET_ALL+Fore.BLUE+'''
 ##################################################
-##  [Write the phone number without "+"]        ##
-##  [Start command: Pomegranate-Bomber "Phone"] ##
+##   Write the phone number without "+"         ##
+##   Start command: Pomegranate-Bomber "Phone"  ##
 ##################################################
 ''')
 
