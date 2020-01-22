@@ -174,7 +174,7 @@ class Pomegranate:
 					from termcolor import colored
 					print(colored("[-] Failed to send!", 'red'))
 				try:
-				requests.post('https://www.citilink.ru/registration/confirm/phone/+'+_phone+'/')
+					requests.post('https://www.citilink.ru/registration/confirm/phone/+'+_phone+'/')
 					print('[+] Spam has been sent!')
 				except:
 					from termcolor import colored
