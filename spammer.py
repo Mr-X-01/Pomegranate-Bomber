@@ -38,7 +38,7 @@ we want to say - that you do everything at your own peril and risk!
 We are not responsible for what you do with this utility!
 '''+Style.RESET_ALL+Fore.BLUE+'''
 [Write the phone number without "+"]
-[Start command: "Pomegranate-Bomber "Phone"]
+[Start command: Pomegranate-Bomber "Phone"]
 ''')
 
 		print(Style.RESET_ALL)
