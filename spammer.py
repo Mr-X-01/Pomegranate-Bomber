@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # spammer v0.4 beta
 # Author: @Mrxanon and @NexlsHere
+# https://github.com/Mrx-Anonym/Pomegranate-Bomber
 class Pomegranate:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse, os
@@ -46,7 +47,7 @@ class Pomegranate:
 ##   Start command: Pomegranate-Bomber "Phone"  ##
 ##################################################
 ''')
-
+		# https://github.com/Mrx-Anonym/Pomegranate-Bomber
 		print(Style.RESET_ALL)
 		parser = argparse.ArgumentParser(prog='Pomegranate-Bomber', description="Maybe something is no longer working.",epilog='Telegram- @Mrxanon and @NexlsHere')
 		parser.add_argument('phonenum', metavar='phone', help='Victims phone number (example: 79991234455)')
