@@ -2,12 +2,13 @@
 clear
 echo "##################################################"
 echo "#------------------------------------------------#"
-echo "##---#####---##88888888888888888888##---#####---##"
-echo "####--###--####88   1. Termux    88####--###--####"
-echo "#####--#--#####88   2. Other     88#####--#--#####"
+echo "##--#######--##88888888888888888888##--#######--##"
+echo "##---#####---##88   1. Termux    88##---#####---##"
+echo "####--###--####88   2. Other     88####--###--####"
+echo "#####--#--#####88   3. iSH       88#####--#--#####"
 echo "#######-#######88888888888888888888#######-#######"
 echo "#####--#-######88888888888888888888#####--#--#####"
-echo "####--###--####88 Choose 1 or 2: 88####--###--####"
+echo "####--###--####88 Choose 1/2/3:  88####--###--####"
 echo "##---#####---##88888888888888888888##---#####---##"
 echo "#------------------------------------------------#"
 echo "##################################################"
@@ -28,7 +29,8 @@ else
 	if [ $numb = "2" ]
 	then
 
-		if [ "$(whoami)" != 'root' ]; then
+		if [ "$(whoami)" != 'root' ];
+		then
 			echo "You have no rights. Run install.sh with root (sudo sh ~/Pomegranate-Bomber/install.sh)"
 			exit
 		else
@@ -41,7 +43,19 @@ else
 			Pomegranate-Bomber
 		fi
 	else
-		echo "Invalid input"
+		if [ $numb = "3" ] 
+		then
+			apk add python
+			apk add python3
+			apk add dos2unix
+			pip3 install requests
+			pip3 install colorama
+			cp ~/spymer/spammer.py /usr/bin/spymer
+			dos2unix /usr/bin/spymer
+			chmod 777 /usr/bin/spymer
+			spymer
+		else
+			echo "Invalid input"
+		fi
 	fi
 fi
-
