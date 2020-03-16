@@ -469,7 +469,7 @@ def Main():
 									_phoneVodaonline = '+'+_phone[0]+' ('+_phone[1:4]+') '+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] # '+7 (999) 666-99-33'
 									_phoneBukvaprava = _phone[0]+'('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] # '7(777)777-77-77'
 									
-									info="Phone: {}\nName: {}\nComplaint: {}\nSpammer launched\nIf you want stop, press Ctrl + Z format(phone, name, text)
+									info="Phone: {}\nName: {}\nComplaint: {}\nSpammer launched\nIf you want stop, press Ctrl + Z" .format(phone, name, text)
 									os.system("clear")
 									print(logo)
 									print(info)
