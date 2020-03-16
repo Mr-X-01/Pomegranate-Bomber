@@ -66,7 +66,7 @@ def Main():
 			print(logo)
 			print(info)
 			print("Proxy: "+Fore.BLUE+"{}".format(proxy)+Style.RESET_ALL)
-			print ("1) SMS Spammer\n2) Add the phone to the antispam list\n3) Check the phone in the anti-spam sheet\n4) Call spammer (test)\n5) Update proxy\n6) Update Spammer\n7) Exit\n")
+			print ("1) SMS Spammer\n2) Add the phone to the anti-spam list\n3) Check the phone in the anti-spam list\n4) Call spammer (test)\n5) Update proxy\n6) Update Spammer\n7) Exit\n")
 			input1 = input(Fore.BLUE+"Enter phone: "+Style.RESET_ALL)
 			if input1 == "1":
 				try:
