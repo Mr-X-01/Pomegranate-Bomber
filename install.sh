@@ -50,10 +50,10 @@ else
 			apk add dos2unix
 			pip3 install requests
 			pip3 install colorama
-			cp ~/spymer/spammer.py /usr/bin/spymer
-			dos2unix /usr/bin/spymer
-			chmod 777 /usr/bin/spymer
-			spymer
+			cp ~/Pomegranate-Bomber/spammer.py /usr/bin/Pomegranate-Bomber
+			dos2unix /usr/bin/Pomegranate-Bomber
+			chmod 777 /usr/bin/Pomegranate-Bomber
+			Pomegranate-Bomber
 		else
 			echo "Invalid input"
 		fi
